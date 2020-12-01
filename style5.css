@@ -1,0 +1,119 @@
+body{
+    margin: 20px;
+    padding: 0;
+}
+
+
+.font{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500; 
+}
+
+.font2 {
+    font-family: 'Xanh Mono', monospace;
+    font-weight: 500;
+}
+
+
+.myclassone{
+    background-color: yellowgreen;
+    color: black;
+    font-size: 28px;
+}
+
+
+#myclasstwo{
+    background-color: yellowgreen;
+    color: black;
+    font-size: 28px;
+}
+
+
+.bgcolor{
+    background-color:#f39c12;
+    color: #27ae60;
+}
+
+.mydiv{
+    width: 200px;
+    height: 250px;
+    background: url(image/du.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+    margin-bottom: 10px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.mydiv:hover {
+    background-color: green;
+    width: 300px;
+    height: 375px;
+    background: url(image/DONE.jpg);
+    margin-bottom: 10px;
+    
+}
+
+
+.mydiv2{
+    width: 550px;
+    height: 350px;
+    background-color:green;
+    background: url(image/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.mydiv2:hover {
+  width: 1100px;
+}
+.myvid{
+    width:1000px;
+}
+
+
+.btn{
+    background-color: black;
+    margin: 100px 0 0 100px;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: 1s;
+
+}
+
+.btn a {text-decoration: none;
+    color: royalblue;
+    
+}
+
+.btn:hover {
+    background-color: orange;
+}
+.btn a:hover{ 
+    color: #000000;
+
+}
+
+.ulstyle ul li {
+    list-style: none;
+    text-transform: capitalize;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.pstyle {
+	
+	
+}
+.p2style {
+	display:inline ;
+	background-color: red;
+    display: block;
+    font-size: 20px;
+}
